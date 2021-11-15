@@ -24,18 +24,6 @@ public class CategoriaModel {
 	@NotBlank 
 	private String Plataforma;
 
-
-	public String getPlataforma() {
-		return Plataforma;
-	}
-
-	public void setPlataforma(String plataforma) {
-		Plataforma = plataforma;
-	}
-
-	@NotBlank
-	private String Genero;
-
 	public long getId_categoria() {
 		return id_categoria;
 	}
@@ -49,21 +37,18 @@ public class CategoriaModel {
 	}
 
 	public void setTitulo(String titulo) {
-		this.Titulo = titulo;
+		Titulo = titulo;
 	}
 
-	
-
-	public String getGenero() {
-		return Genero;
+	public String getPlataforma() {
+		return Plataforma;
 	}
 
-	public void setGenero(String genero) {
-		this.Genero = genero;
+	public void setPlataforma(String plataforma) {
+		Plataforma = plataforma;
 	}
-	
-	
-	
-	
+
+
+		
 
 }
